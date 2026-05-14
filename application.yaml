@@ -1,0 +1,13 @@
+
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_USER}
+    password: ${DATABASE_PASS}
+    driver-class-name: ${DATABASE_DRIVER}
+
+    hikari:
+      pool-name: energy-stats-pool
+      maximum-pool-size: 5
+      minimum-idle: 1
+
