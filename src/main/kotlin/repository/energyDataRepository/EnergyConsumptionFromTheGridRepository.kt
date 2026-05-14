@@ -1,0 +1,6 @@
+package cvut.fit.energyStats.repository.energyDataRepository
+
+import org.springframework.stereotype.Repository
+
+@Repository
+class EnergyConsumptionFromTheGridRepository : EnergyDataRepository(EnergyConsumptionFromTheGridO)
