@@ -1,6 +1,7 @@
 # Energy Stats
 
 This project implements the backend of a web application for monitoring energy production and consumption of a household with photovoltaics.
+The frontend implementation is available at: https://github.com/bbellusova/thesis_frontend_EnergyStats
 
 
 ## How to run the app
